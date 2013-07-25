@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E49B5860-F0AD-455E-B982-C9031B7F4C86}</ProjectGuid>
+    <ProjectGuid>{AE1D494E-D255-4CC0-A59D-1D681CA9A00D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>calculatorreal</RootNamespace>
+    <RootNamespace>ClassToucan</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,8 +74,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculator w functions real.cpp" />
-    <ClCompile Include="calculatorreal.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="toucan.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toucan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

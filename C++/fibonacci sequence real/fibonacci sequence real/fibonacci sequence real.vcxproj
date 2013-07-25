@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E49B5860-F0AD-455E-B982-C9031B7F4C86}</ProjectGuid>
+    <ProjectGuid>{5613E2C8-A0B8-4002-9F2D-AFE1953222AC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>calculatorreal</RootNamespace>
+    <RootNamespace>fibonaccisequencereal</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,8 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculator w functions real.cpp" />
-    <ClCompile Include="calculatorreal.cpp" />
+    <ClCompile Include="fibonacci sequence real.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

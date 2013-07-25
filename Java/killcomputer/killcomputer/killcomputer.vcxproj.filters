@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="calculatorreal.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="calculator w functions real.cpp">
+    <ClCompile Include="killcomputer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

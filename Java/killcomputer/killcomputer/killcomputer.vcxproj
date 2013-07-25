@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E49B5860-F0AD-455E-B982-C9031B7F4C86}</ProjectGuid>
+    <ProjectGuid>{C2D6E295-2FFA-40CB-BC76-A3B5DCDCF58F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>calculatorreal</RootNamespace>
+    <RootNamespace>killcomputer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,8 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculator w functions real.cpp" />
-    <ClCompile Include="calculatorreal.cpp" />
+    <ClCompile Include="killcomputer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
